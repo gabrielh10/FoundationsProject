@@ -14,6 +14,8 @@
 		E3A6528820DA72B200928215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A6528620DA72B200928215 /* LaunchScreen.storyboard */; };
 		E3A6529320DA72B200928215 /* FoundationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A6529220DA72B200928215 /* FoundationsTests.swift */; };
 		E3A6529E20DA72B200928215 /* FoundationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A6529D20DA72B200928215 /* FoundationsUITests.swift */; };
+		E3A652AE20DA7C5A00928215 /* myTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A652AD20DA7C5A00928215 /* myTableCell.swift */; };
+		E3A652B020DA804C00928215 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A652AF20DA804C00928215 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E3A6529920DA72B200928215 /* FoundationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A6529D20DA72B200928215 /* FoundationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationsUITests.swift; sourceTree = "<group>"; };
 		E3A6529F20DA72B200928215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A652AD20DA7C5A00928215 /* myTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableCell.swift; sourceTree = "<group>"; };
+		E3A652AF20DA804C00928215 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				E3A6527D20DA72B100928215 /* AppDelegate.swift */,
 				E3A6527F20DA72B200928215 /* ViewController.swift */,
 				E3A6528120DA72B200928215 /* Main.storyboard */,
+				E3A652AF20DA804C00928215 /* Player.swift */,
 				E3A6528420DA72B200928215 /* Assets.xcassets */,
 				E3A6528620DA72B200928215 /* LaunchScreen.storyboard */,
 				E3A6528920DA72B200928215 /* Info.plist */,
+				E3A652AD20DA7C5A00928215 /* myTableCell.swift */,
 			);
 			path = Foundations;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A652B020DA804C00928215 /* Player.swift in Sources */,
 				E3A6528020DA72B200928215 /* ViewController.swift in Sources */,
+				E3A652AE20DA7C5A00928215 /* myTableCell.swift in Sources */,
 				E3A6527E20DA72B100928215 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

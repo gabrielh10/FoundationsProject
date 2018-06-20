@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+
+struct Player {
+    var photo: UIImage
+    var name: String
+    var shirtNumber: String
+    var club: String
+    
+    init(photo: UIImage, name: String, shirtNumber:String, club:String){
+        self.photo = photo
+        self.name = name
+        self.shirtNumber = shirtNumber
+        self.club = club
+    }
+}
